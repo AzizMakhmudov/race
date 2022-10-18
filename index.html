@@ -12,6 +12,16 @@
       align-items: center;
       gap: 20px;
     }
+    .warning {
+      text-align: center;
+    }
+    .box {
+      border: 5px solid red;
+      width: 250px;
+      height: 150px;
+      padding-left: 10px;
+      transform: translateX(550px);
+    }
   </style>
   <body>
     <form id="form">
@@ -26,6 +36,15 @@
       <button type="submit" id="btn">Tap</button>
     </form>
     <h1 id="heading"></h1>
+    <blockquote class="warning">
+      Kiritilgan son faqat km/s da ishlidi!!!
+    </blockquote>
+    <div class="box">
+      <p>Piyoda 3.6km/s</p>
+      <p>Velosiped 20.1km/s</p>
+      <p>Mashina 70km/s</p>
+      <p>Samolyot 800km/s</p>
+    </div>
     <script src="./js/main.js"></script>
   </body>
 </html>
