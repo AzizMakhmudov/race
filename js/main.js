@@ -9,12 +9,12 @@ var samolyotKM = 800;
 elForm.addEventListener("submit", function (evt) {
   evt.preventDefault();
   if (elSelect.value === "piyoda") {
-    elHeading.textContent = `vaqt ${(elInput.value / piyodaKM).toFixed(1)}`;
+    elHeading.textContent = `vaqt ${(elInput.value / piyodaKM).toFixed(2)}`;
   } else if (elSelect.value === "velosiped") {
-    elHeading.textContent = `vaqt ${(elInput.value / velosipedKM).toFixed(1)}`;
+    elHeading.textContent = `vaqt ${(elInput.value / velosipedKM).toFixed(2)}`;
   } else if (elSelect.value === "mashina") {
-    elHeading.textContent = `vaqt ${(elInput.value / mashinaKM).toFixed(1)}`;
+    elHeading.textContent = `vaqt ${(elInput.value / mashinaKM).toFixed(2)}`;
   } else if (elSelect.value === "samolyot") {
-    elHeading.textContent = `vaqt ${(elInput.value / samolyotKM).toFixed(1)}`;
+    elHeading.textContent = `vaqt ${(elInput.value / samolyotKM).toFixed(2)}`;
   }
 });
